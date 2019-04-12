@@ -69,7 +69,8 @@ class Put extends AbstractEndpoint
             'ignore_unavailable',
             'allow_no_indices',
             'expand_wildcards',
-            'update_all_types'
+            'update_all_types',
+            'include_type_name'
         );
     }
 
